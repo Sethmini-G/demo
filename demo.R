@@ -13,5 +13,5 @@ ggplot(avg_mpg, aes(y = class, x = avg_hwy_mpg)) +
   geom_col(fill = "lightblue") + # Set all bars to light blue
   labs(title = "Average Highway MPG by Vehicle Class",
        y = "Vehicle Class",
-       x = "Average Highway MPG") +
+       x = "AVG Highway MPG") +
   theme_minimal()
